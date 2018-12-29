@@ -17,7 +17,7 @@ import { PagesModuleModule} from './pages/pages-module.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-import { from } from 'rxjs';
+
 /**
  * PagesModuleModule
  * AppRoutingModule,
@@ -28,7 +28,8 @@ import { from } from 'rxjs';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+
   ],
   imports: [
     BrowserModule,
